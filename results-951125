@@ -1,0 +1,45 @@
+result 1: ecg.ecg
+Total results: tp = 49.000000, tn = 32.000000, fp = 7.000000, fn = 47.000000, total-> 0.600000
+
+--->Result for data = /My data/95.10.15.csv , 11 samples (6 N, 5 A)
+		tp = 4.000000, tn = 5.000000, fp = 0.000000, fn = 2.000000, total-> 0.818182
+--->Result for data = /My data/95.10.21.csv , 26 samples (16 N, 10 A)
+		tp = 6.000000, tn = 10.000000, fp = 0.000000, fn = 10.000000, total-> 0.615385
+--->Result for data = /My data/from 95.8.2 till 95.9.17.csv , 59 samples (49 N, 10 A)
+		tp = 27.000000, tn = 10.000000, fp = 0.000000, fn = 22.000000, total-> 0.627119
+--->Result for data = /My data/before 95.08.csv , 39 samples (25 N, 14 A)
+		tp = 12.000000, tn = 7.000000, fp = 7.000000, fn = 13.000000, total-> 0.487179
+
+
+*result 2: ecg with normalized data
+Total results: tp = 50.000000, tn = 32.000000, fp = 7.000000, fn = 47.000000, total-> 0.602941
+
+--->Result for data = /My data/95.10.15.csv , 11 samples (6 N, 5 A)
+		tp = 4.000000, tn = 5.000000, fp = 0.000000, fn = 2.000000, total-> 0.818182
+
+--->Result for data = /My data/95.10.21.csv , 26 samples (16 N, 10 A)
+		tp = 6.000000, tn = 10.000000, fp = 0.000000, fn = 10.000000, total-> 0.615385
+
+--->Result for data = /My data/from 95.8.2 till 95.9.17.csv , 60 samples (50 N, 10 A)
+		tp = 28.000000, tn = 10.000000, fp = 0.000000, fn = 22.000000, total-> 0.633333
+
+--->Result for data = /My data/before 95.08.csv , 39 samples (25 N, 14 A)
+		tp = 12.000000, tn = 7.000000, fp = 7.000000, fn = 13.000000, total-> 0.487179
+
+
+
+result3: engz with filterd result of ecg.ecg
+Total results: tp = 23.000000, tn = 33.000000, fp = 6.000000, fn = 72.000000, total-> 0.417910
+
+--->Result for data = /My data/95.10.15.csv , 11 samples (6 N, 5 A)
+		tp = 2.000000, tn = 5.000000, fp = 0.000000, fn = 4.000000, total-> 0.636364
+
+--->Result for data = /My data/95.10.21.csv , 26 samples (16 N, 10 A)
+		tp = 2.000000, tn = 9.000000, fp = 1.000000, fn = 14.000000, total-> 0.423077
+
+--->Result for data = /My data/from 95.8.2 till 95.9.17.csv , 58 samples (48 N, 10 A)
+		tp = 12.000000, tn = 10.000000, fp = 0.000000, fn = 36.000000, total-> 0.379310
+
+--->Result for data = /My data/before 95.08.csv , 39 samples (25 N, 14 A)
+		tp = 7.000000, tn = 9.000000, fp = 5.000000, fn = 18.000000, total-> 0.410256
+
